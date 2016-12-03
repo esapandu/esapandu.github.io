@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Webpage</title>
+    <meta description="Showing what HTML can do">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <div class="header">
+        <h1>Esa Pandu Sekti Webpage</h1>
+        <h2>Welcome Everyone!</h2>
+    </div>
+  </head>
+  <body>
+    <div class="body">
+       <div class="img">
+        <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/4/43/The_Earth_seen_from_Apollo_17_with_transparent_background.png">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/The_Earth_seen_from_Apollo_17_with_transparent_background.png" alt="The_Earth_seen_from_Apollo_17_with_transparent_background" width="300" height="200">
+        </a>
+       </div>
+       <div class="top">
+         <p id="hi">Hi I am Esa Pandu Sekti and this is my first webpage. Let's be fullstack developer with Hacktiv8</P>
+         <p id="target">This is my target list:</p>
+           <ol>
+             <li>Being Fullstack Developer</li>
+             <li>Created Wonderful Website</li>
+           </ol>
+         <p id="contact">Here is my contact:</p>
+           <ul>
+             <li>Email: esa.028@gmail.com</li>
+             <li>Phone: +628569153XXXX</li>
+       </div>
+       <div class="bottom">
+         <p id="mdr">My Daily Routine:</p>
+         <table>
+          <tr>
+            <th></th>
+            <th>Morning</th>
+            <th>Afternoon</th>
+            <th>Evening</th>
+            <th>Night</th>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <th id="ecs" colspan="4" rowspan="7">Eat, Coding & Sleep</th>
+          </tr>
+          <tr><td>Monday</td></tr>
+          <tr><td>Tuesday</td></tr>
+          <tr><td>Wednesday</td></tr>
+          <tr><td>Thusday</td></tr>
+          <tr><td>Friday</td></tr>
+          <tr><td>Saturday</td></tr>
+      </table>
+       </div>
+     </div>
+  </body>
+<!-- Form Input Nama-->
+<form>
+  <div class="comment">
+    <p id="leave"><b>Leave Your Comment Below</b></p>
+    <p>
+      <label for="first-name">First Name:</label><br>
+      <input id="first-name" name="firstName" type="text">
+    </p>
+    <p>
+      <label for="last-name">Last Name:</label><br>
+      <input id="last-name" name="lastName" type="text">
+    </p>
+<!-- Form Input Jenis Kelamin-->
+    <label for="gender">Gender:</label><br>
+    <input id="male-radio" type="radio" name="gender" value="male">
+    <label for="male-radio">Male</label><br>
+    <input id="female-radio" type="radio" name="gender" value="female">
+    <label for="female-radio">Female</label><br>
+    <input id="other-radio" type="radio" name="gender" value="other">
+    <label for="Other">Other</label><br>
+<!-- Form Input Bahasa-->
+    <label for="language-spoken">Language Spoken:</label><br>
+    <input id="writing-checkbox" type="checkbox" name="language-spoken" value="Bindonesia">
+    <label for="writing-checkbox">Bahasa Indonesia</label><br>
+    <input id="reading-checkbox" type="checkbox" name="language-spoken" value="English">
+    <label for="reading-checkbox">English</label><br>
+    <input id="reading-checkbox" type="checkbox" name="language-spoken" value="Other">
+    <label for="reading-checkbox">Other</label>
+<!-- Form Input Favorite-->
+    <p>
+      <label for="car">Favorit Car:</label><br>
+      <input type="text" name="car" list="car" />
+      <datalist id="car">
+        <select id="car" name="car">
+          <option value="Volvo">volvo</option>
+          <option value="Mazda">mazda</option>
+          <option value="Ferrari">ferarri</option>
+        </select>
+      </datalist>
+    </p>
+<!-- Form Textarea Biodata-->
+    <p>
+      <label for="bio">Bio:</label><br>
+      <textarea rows="5" cols="30"></textarea><br>
+      <input type="submit" value="Submit">
+    </p>
+  </div>
+</Form>
+</html>
