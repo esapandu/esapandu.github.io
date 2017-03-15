@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Webpage</title>
+    <meta description="Showing what HTML can do">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <div class="header">
+        <h1>Buat Account Baru!</h1>
+        <h2>Sign Up Form</h2>
+    </div>
+  </head>
+  <body>
+<!-- Form Input Nama-->
+<form>
+  <div class="signup">
+    <p>
+      <label for="first-name">First Name:</label><br>
+      <input id="first-name" name="firstName" type="text">
+    </p>
+    <p>
+      <label for="last-name">Last Name:</label><br>
+      <input id="last-name" name="lastName" type="text">
+    </p>
+<!-- Form Input Jenis Kelamin-->
+    <label for="gender">Gender:</label><br>
+    <input id="male-radio" type="radio" name="gender" value="male">
+    <label for="male-radio">Male</label><br>
+    <input id="female-radio" type="radio" name="gender" value="female">
+    <label for="female-radio">Female</label><br>
+    <input id="other-radio" type="radio" name="gender" value="other">
+    <label for="Other">Other</label><br>
+<!-- Form Input Nationality-->
+    <p>
+      <label for="nat">Nationality</label><br>
+      <input type="text" name="nat" list="nat" />
+      <datalist id="nat">
+        <select id="nat" name="nat">
+          <option value="Indonesia">Indonesia</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="Singapore">Singapore</option>
+        </select>
+      </datalist>
+    </p>
+<!-- Form Input Bahasa-->
+    <label for="language-spoken">Language Spoken:</label><br>
+    <input id="writing-checkbox" type="checkbox" name="language-spoken" value="Bindonesia">
+    <label for="writing-checkbox">Bahasa Indonesia</label><br>
+    <input id="reading-checkbox" type="checkbox" name="language-spoken" value="English">
+    <label for="reading-checkbox">English</label><br>
+    <input id="reading-checkbox" type="checkbox" name="language-spoken" value="Other">
+    <label for="reading-checkbox">Other</label>
+
+<!-- Form Textarea Biodata-->
+  <form action="D:\Phase-0-Week1\html_file\signup.html" method="get">
+    <label for="bio">Bio:</label><br>
+    <textarea rows="5" cols="30"></textarea><br>
+    <button type="submit" formaction="D:\Phase-0-Week1\html_file\signup.html">Sign Up</button>
+  </form>
+  </div>
+</Form>
+    </body>
